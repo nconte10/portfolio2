@@ -1,0 +1,18 @@
+header{
+    background-color: aquamarine;
+    padding: 25px;
+    img {
+        
+        width: 150px;
+        border-radius: 25%;
+    
+    }
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        &:hover {
+            background-color: chocolate;
+        }
+    }
+
+
+}

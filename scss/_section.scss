@@ -1,0 +1,32 @@
+.intro{
+    p{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(63, 153, 123);
+    }
+}
+
+.fortalezas{
+    background-color: rgb(34, 85, 68) ;
+
+    h2{
+        text-align: center;
+        
+        color: burlywood;
+
+    }
+    ul{
+        list-style-type: square;
+        li{
+            text-align: center;
+            color: beige;
+            &:hover {
+                color: red;
+            }
+
+        
+        }
+    }
+   
+
+}
